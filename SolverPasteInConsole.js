@@ -1,4 +1,4 @@
-```js
+js
 function clickButtonsAndAnswerQuestions() {
   var radioButtons = document.querySelectorAll('input[type="radio"]');
   var showAnswerButtons = Array.from(document.querySelectorAll('button')).filter(button => button.innerText.trim() === 'Show answer');
@@ -69,4 +69,3 @@ function clickButtonsAndAnswerQuestions() {
 }
 
 clickButtonsAndAnswerQuestions();
-```
